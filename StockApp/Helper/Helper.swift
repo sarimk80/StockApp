@@ -9,6 +9,6 @@ import Foundation
 
 
 class Helper{
-  static var API_kEY:String = "KPRQ2O1P1RKVW205"
+  static var API_kEY:String = ""
     
 }
