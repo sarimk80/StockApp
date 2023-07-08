@@ -42,6 +42,7 @@ enum TickerState {
                 try await Task.sleep(nanoseconds: 3_000_000_000)
                 let data = try await self.stockService.searchTicker(sym: searchSymbol.capitalized)
                 self.tickerState = TickerState.Loaded(data: data)
+                
             }
             catch let error {
                 self.tickerState = TickerState.Error(error: error.localizedDescription)

@@ -19,7 +19,7 @@ struct ContentView: View {
                         .navigationDestination(for: TickerViewRoute.self) { route in
                             switch route{
                                 case .tickerDetail(let symbol):
-                                    Text("Detail \(symbol)")
+                                    TickerDetailView(sym: symbol)
                             }
                         }
                 }

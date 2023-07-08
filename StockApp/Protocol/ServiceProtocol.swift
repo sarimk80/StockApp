@@ -9,4 +9,8 @@ import Foundation
 
 protocol ServiceProtocol {
     func searchTicker(sym:String) async throws ->  SearchSym
+    
+    func tickerDetail(sym:String) async throws -> IntraDay
+    
+    func previousClose(sym:String) async throws -> IntraDay
 }

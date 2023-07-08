@@ -14,8 +14,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -122,8 +122,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,8 +138,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,8 +154,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -466,8 +466,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -482,9 +482,499 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "searchTicker(sym:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05CA0AFC-C69C-47D4-BCF7-FB7A1888AC45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05CA0AFC-C69C-47D4-BCF7-FB7A1888AC45 - 9c43ac41f7ad6d8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "271">
+               </Location>
+               <Location
+                  uuid = "05CA0AFC-C69C-47D4-BCF7-FB7A1888AC45 - 9126127e60359af4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "05CA0AFC-C69C-47D4-BCF7-FB7A1888AC45 - c6ffd6a52df4a98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  uuid = "05CA0AFC-C69C-47D4-BCF7-FB7A1888AC45 - dc492b977eeb4b8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5F6F122-B210-45E3-8191-E149BE8E0F2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5F6F122-B210-45E3-8191-E149BE8E0F2F - c6ffd6a52df4a96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "E5F6F122-B210-45E3-8191-E149BE8E0F2F - c6ffd6a52df4a96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "475">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9672D40D-8B7F-46BC-96A2-35492BC82550"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9672D40D-8B7F-46BC-96A2-35492BC82550 - c6ffd6a52df4a96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "9672D40D-8B7F-46BC-96A2-35492BC82550 - c6ffd6a52df4a96a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "475">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C9857B4-2702-44CC-B63D-A903F14EEB31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C9857B4-2702-44CC-B63D-A903F14EEB31 - c6ffd6a52df4aa85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "2360">
+               </Location>
+               <Location
+                  uuid = "3C9857B4-2702-44CC-B63D-A903F14EEB31 - c6ffd6a52df4aa85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D919F9F9-1C75-4E90-B47B-32DCDE960425"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D919F9F9-1C75-4E90-B47B-32DCDE960425 - c6ffd6a52df4aa85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "2360">
+               </Location>
+               <Location
+                  uuid = "D919F9F9-1C75-4E90-B47B-32DCDE960425 - c6ffd6a52df4aa85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "411A07D3-81B2-4C58-A2C2-37007E1A371A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "411A07D3-81B2-4C58-A2C2-37007E1A371A - c6ffd6a52df4aa01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1322">
+               </Location>
+               <Location
+                  uuid = "411A07D3-81B2-4C58-A2C2-37007E1A371A - c6ffd6a52df4aa62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.tickerDetail(sym: Swift.String) async throws -&gt; StockApp.IntraDay"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "637">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "354A9B8F-DDF5-4BC9-892F-8C4C2899208C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/TickerDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getTickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "354A9B8F-DDF5-4BC9-892F-8C4C2899208C - e85946226f5d8fb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  uuid = "354A9B8F-DDF5-4BC9-892F-8C4C2899208C - 328922f41e88e267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "354A9B8F-DDF5-4BC9-892F-8C4C2899208C - b48c873948e4cba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "354A9B8F-DDF5-4BC9-892F-8C4C2899208C - 3b9a25b1115aa1aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB6C9FA4-7B50-42DA-A5D2-7F3888C9AC38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/TickerDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getTickerDetail(sym:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB6C9FA4-7B50-42DA-A5D2-7F3888C9AC38 - b48c873948e4cbc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  uuid = "FB6C9FA4-7B50-42DA-A5D2-7F3888C9AC38 - 386def2dd8c35ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "FB6C9FA4-7B50-42DA-A5D2-7F3888C9AC38 - 41c0c43fa20f07ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  uuid = "FB6C9FA4-7B50-42DA-A5D2-7F3888C9AC38 - 12740532ff9643cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for StockApp.TickerDetailViewModel.getTickerDetail(sym: Swift.String) async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/TickerDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03AC522B-2259-4FCB-B110-A46510B09DE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/TickerDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getTickerDetail(sym:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

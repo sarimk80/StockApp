@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A412B3A2A56B04100A6D08C /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B392A56B04100A6D08C /* AppNavigation.swift */; };
+		4A412B3D2A56B60800A6D08C /* TickerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */; };
+		4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B3E2A56B9D100A6D08C /* IntraDay.swift */; };
+		4A412B412A56BA9700A6D08C /* TickerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */; };
 		4A8C42AE2A52BA9600446330 /* StockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42AD2A52BA9600446330 /* StockAppApp.swift */; };
 		4A8C42B22A52BA9600446330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42B12A52BA9600446330 /* ContentView.swift */; };
 		4A8C42B42A52BA9800446330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C42B32A52BA9800446330 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		4A412B392A56B04100A6D08C /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDetailView.swift; sourceTree = "<group>"; };
+		4A412B3E2A56B9D100A6D08C /* IntraDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntraDay.swift; sourceTree = "<group>"; };
+		4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDetailViewModel.swift; sourceTree = "<group>"; };
 		4A8C42AA2A52BA9600446330 /* StockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8C42AD2A52BA9600446330 /* StockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAppApp.swift; sourceTree = "<group>"; };
 		4A8C42B12A52BA9600446330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +61,14 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		4A412B3B2A56B5EA00A6D08C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4A8C42A12A52BA9500446330 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +88,7 @@
 		4A8C42AC2A52BA9600446330 /* StockApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A412B3B2A56B5EA00A6D08C /* View */,
 				4A412B382A56B03200A6D08C /* Navigation */,
 				4A8C42CD2A530DEB00446330 /* ViewModel */,
 				4A8C42CA2A530B1400446330 /* Helper */,
@@ -118,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				4A8C42C52A53098B00446330 /* SearchSym.swift */,
+				4A412B3E2A56B9D100A6D08C /* IntraDay.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -142,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */,
+				4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -219,10 +236,13 @@
 				4A8C42AE2A52BA9600446330 /* StockAppApp.swift in Sources */,
 				4A8C42CC2A530B2200446330 /* Helper.swift in Sources */,
 				4A8C42C02A52C38800446330 /* Ticker.swift in Sources */,
+				4A412B412A56BA9700A6D08C /* TickerDetailViewModel.swift in Sources */,
 				4A8C42B22A52BA9600446330 /* ContentView.swift in Sources */,
 				4A8C42C62A53098B00446330 /* SearchSym.swift in Sources */,
 				4A8C42C82A530A3A00446330 /* StockService.swift in Sources */,
 				4A412B3A2A56B04100A6D08C /* AppNavigation.swift in Sources */,
+				4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */,
+				4A412B3D2A56B60800A6D08C /* TickerDetailView.swift in Sources */,
 				4A8C42CF2A530E0B00446330 /* TickerViewModel.swift in Sources */,
 				4A8C42C32A5308E200446330 /* ServiceProtocol.swift in Sources */,
 			);
