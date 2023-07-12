@@ -8,6 +8,26 @@
 import Foundation
 
 class StockService: ServiceProtocol {
+    func topTraded() async throws -> TopTraded {
+        guard let url = URL(string: "https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=\(Helper.API_kEY)")
+        else {  throw URLError(.badURL) }
+        
+        let (data,response) = try await URLSession.shared.data(from: url)
+        
+        
+        guard let response = response as? HTTPURLResponse,
+              
+                response.statusCode == 200
+                
+                
+        else { throw URLError(.badServerResponse) }
+        
+        let decodeResponse = try JSONDecoder().decode(TopTraded.self, from: data)
+        
+        return decodeResponse
+        
+    }
+    
     
     func previousClose(sym: String) async throws -> IntraDay {
         guard let url = URL(string: "https://api.polygon.io/v2/aggs/ticker/\(sym)/prev?adjusted=true&apiKey=\(Helper.POLYGON_API_KEY)")

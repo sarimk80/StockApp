@@ -17,4 +17,5 @@ enum TickerViewRoute: Hashable {
 class AppNavigation : ObservableObject {
     
     @Published var tickerNavigation = NavigationPath()
+    @Published var topTickerNavigation = NavigationPath()
 }

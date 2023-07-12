@@ -21,6 +21,9 @@
 		4A8C42C82A530A3A00446330 /* StockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42C72A530A3A00446330 /* StockService.swift */; };
 		4A8C42CC2A530B2200446330 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42CB2A530B2200446330 /* Helper.swift */; };
 		4A8C42CF2A530E0B00446330 /* TickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */; };
+		4AC545022A5DAA8B0010BE02 /* TopTraded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC545012A5DAA8B0010BE02 /* TopTraded.swift */; };
+		4AC545042A5DAB350010BE02 /* TopSymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */; };
+		4ACA017A2A5D629800EAF8F1 /* TopSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		4A8C42C72A530A3A00446330 /* StockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockService.swift; sourceTree = "<group>"; };
 		4A8C42CB2A530B2200446330 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerViewModel.swift; sourceTree = "<group>"; };
+		4AC545012A5DAA8B0010BE02 /* TopTraded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTraded.swift; sourceTree = "<group>"; };
+		4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSymbolsViewModel.swift; sourceTree = "<group>"; };
+		4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSymbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */,
+				4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +141,7 @@
 			children = (
 				4A8C42C52A53098B00446330 /* SearchSym.swift */,
 				4A412B3E2A56B9D100A6D08C /* IntraDay.swift */,
+				4AC545012A5DAA8B0010BE02 /* TopTraded.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 			children = (
 				4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */,
 				4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */,
+				4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -234,11 +243,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8C42AE2A52BA9600446330 /* StockAppApp.swift in Sources */,
+				4AC545022A5DAA8B0010BE02 /* TopTraded.swift in Sources */,
 				4A8C42CC2A530B2200446330 /* Helper.swift in Sources */,
+				4AC545042A5DAB350010BE02 /* TopSymbolsViewModel.swift in Sources */,
 				4A8C42C02A52C38800446330 /* Ticker.swift in Sources */,
 				4A412B412A56BA9700A6D08C /* TickerDetailViewModel.swift in Sources */,
 				4A8C42B22A52BA9600446330 /* ContentView.swift in Sources */,
 				4A8C42C62A53098B00446330 /* SearchSym.swift in Sources */,
+				4ACA017A2A5D629800EAF8F1 /* TopSymbols.swift in Sources */,
 				4A8C42C82A530A3A00446330 /* StockService.swift in Sources */,
 				4A412B3A2A56B04100A6D08C /* AppNavigation.swift in Sources */,
 				4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */,

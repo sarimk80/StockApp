@@ -13,4 +13,6 @@ protocol ServiceProtocol {
     func tickerDetail(sym:String) async throws -> IntraDay
     
     func previousClose(sym:String) async throws -> IntraDay
+    
+    func topTraded() async throws -> TopTraded
 }

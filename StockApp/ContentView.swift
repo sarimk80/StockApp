@@ -25,8 +25,16 @@ struct ContentView: View {
                 }
                     .tabItem { Label("Ticker", systemImage: "chart.bar.xaxis") }
                 
-                NavigationStack{
-                    Text("Top Symbols")
+                NavigationStack(path:$appNavigation.topTickerNavigation){
+                    TopSymbols()
+                        .environmentObject(appNavigation)
+                        .navigationDestination(for: TickerViewRoute.self) { route in
+                            switch route{
+                            case .tickerDetail(let symbol):
+                                TickerDetailView(sym: symbol)
+                                
+                            }
+                        }
                 }
                     .tabItem { Label("Top Symbols", systemImage: "chart.line.downtrend.xyaxis") }
                 
