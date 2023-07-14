@@ -15,4 +15,6 @@ protocol ServiceProtocol {
     func previousClose(sym:String) async throws -> IntraDay
     
     func topTraded() async throws -> TopTraded
+    
+    func newsSentiment() async throws -> NewSentimentModel
 }

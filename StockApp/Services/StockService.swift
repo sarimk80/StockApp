@@ -8,6 +8,28 @@
 import Foundation
 
 class StockService: ServiceProtocol {
+    func newsSentiment() async throws -> NewSentimentModel {
+        guard let url = URL(string: "https://www.alphavantage.co/query?function=NEWS_SENTIMENT&apikey=\(Helper.API_kEY)")
+        else {  throw URLError(.badURL) }
+        
+        let (data,response) = try await URLSession.shared.data(from: url)
+        
+        
+        guard let response = response as? HTTPURLResponse,
+              
+                response.statusCode == 200
+                
+                
+        else { throw URLError(.badServerResponse) }
+        
+        let decodeResponse = try JSONDecoder().decode(NewSentimentModel.self, from: data)
+        
+        return decodeResponse
+    }
+    
+    
+    
+    
     func topTraded() async throws -> TopTraded {
         guard let url = URL(string: "https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=\(Helper.API_kEY)")
         else {  throw URLError(.badURL) }

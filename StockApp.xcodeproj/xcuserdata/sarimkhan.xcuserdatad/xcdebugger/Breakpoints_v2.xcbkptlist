@@ -14,8 +14,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -122,8 +122,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,8 +138,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,8 +154,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -466,8 +466,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -482,8 +482,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -498,8 +498,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -576,8 +576,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -624,8 +624,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -672,8 +672,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -720,8 +720,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -768,8 +768,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -976,6 +976,181 @@
             endingLineNumber = "34"
             landmarkName = "getTickerDetail(sym:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96152CE6-BC45-4A1A-AE31-E979D27A9476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/NewsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getNewsAndSentiment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1764CDEC-B0F1-4F5B-B537-17D5BAC52FF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/NewsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getNewsAndSentiment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "087AEC79-4051-4ECC-9FB8-BC59BE4E56D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "newsSentiment()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "087AEC79-4051-4ECC-9FB8-BC59BE4E56D3 - 8420c1afbdc9e4de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StockApp.StockService.newsSentiment() async throws -&gt; StockApp.NewSentimentModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "087AEC79-4051-4ECC-9FB8-BC59BE4E56D3 - 70871c4ede1320dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.newsSentiment() async throws -&gt; StockApp.NewSentimentModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "2064">
+               </Location>
+               <Location
+                  uuid = "087AEC79-4051-4ECC-9FB8-BC59BE4E56D3 - ab58ddea007dec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StockApp.StockService.newsSentiment() async throws -&gt; StockApp.NewSentimentModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "197">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "180D5ABB-020E-46EA-8204-1DF5AB563572"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "newsSentiment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE7C2DA5-0B5C-4D3A-A8B6-CB9BB4DB14E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "newsSentiment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88DAFE2A-FB92-4747-85CB-401A405F58C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "newsSentiment()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88DAFE2A-FB92-4747-85CB-401A405F58C3 - 70871c4ede132396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.newsSentiment() async throws -&gt; StockApp.NewSentimentModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "88DAFE2A-FB92-4747-85CB-401A405F58C3 - 70871c4ede132396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.newsSentiment() async throws -&gt; StockApp.NewSentimentModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

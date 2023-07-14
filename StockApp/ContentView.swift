@@ -39,7 +39,7 @@ struct ContentView: View {
                     .tabItem { Label("Top Symbols", systemImage: "chart.line.downtrend.xyaxis") }
                 
                 NavigationStack{
-                    Text("News")
+                    NewsView()
                 }
                
                     .tabItem { Label("News", systemImage: "newspaper") }
