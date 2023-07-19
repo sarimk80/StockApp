@@ -45,7 +45,7 @@ struct ContentView: View {
                     .tabItem { Label("News", systemImage: "newspaper") }
                 
                 NavigationStack{
-                    Text("Forex")
+                    ForexView()
                 }
                 
                     .tabItem { Label("Forex", systemImage: "dollarsign") }

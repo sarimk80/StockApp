@@ -24,6 +24,11 @@
 		4A8C42C82A530A3A00446330 /* StockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42C72A530A3A00446330 /* StockService.swift */; };
 		4A8C42CC2A530B2200446330 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42CB2A530B2200446330 /* Helper.swift */; };
 		4A8C42CF2A530E0B00446330 /* TickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */; };
+		4AA785D52A653E3800F2D6B1 /* ForexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785D42A653E3800F2D6B1 /* ForexView.swift */; };
+		4AA785D72A653E8E00F2D6B1 /* ForexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785D62A653E8E00F2D6B1 /* ForexViewModel.swift */; };
+		4AA785DA2A6540CE00F2D6B1 /* physical_currency_list.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4AA785D92A6540CE00F2D6B1 /* physical_currency_list.csv */; };
+		4AA785DC2A6540D900F2D6B1 /* digital_currency_list.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4AA785DB2A6540D900F2D6B1 /* digital_currency_list.csv */; };
+		4AA785DE2A65435D00F2D6B1 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA785DD2A65435D00F2D6B1 /* CurrencyModel.swift */; };
 		4AC545022A5DAA8B0010BE02 /* TopTraded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC545012A5DAA8B0010BE02 /* TopTraded.swift */; };
 		4AC545042A5DAB350010BE02 /* TopSymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */; };
 		4ACA017A2A5D629800EAF8F1 /* TopSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */; };
@@ -49,6 +54,11 @@
 		4A8C42C72A530A3A00446330 /* StockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockService.swift; sourceTree = "<group>"; };
 		4A8C42CB2A530B2200446330 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4A8C42CE2A530E0B00446330 /* TickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerViewModel.swift; sourceTree = "<group>"; };
+		4AA785D42A653E3800F2D6B1 /* ForexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexView.swift; sourceTree = "<group>"; };
+		4AA785D62A653E8E00F2D6B1 /* ForexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexViewModel.swift; sourceTree = "<group>"; };
+		4AA785D92A6540CE00F2D6B1 /* physical_currency_list.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = physical_currency_list.csv; sourceTree = "<group>"; };
+		4AA785DB2A6540D900F2D6B1 /* digital_currency_list.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = digital_currency_list.csv; sourceTree = "<group>"; };
+		4AA785DD2A65435D00F2D6B1 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		4AC545012A5DAA8B0010BE02 /* TopTraded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTraded.swift; sourceTree = "<group>"; };
 		4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSymbolsViewModel.swift; sourceTree = "<group>"; };
 		4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSymbols.swift; sourceTree = "<group>"; };
@@ -79,6 +89,7 @@
 				4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */,
 				4ACA01792A5D629800EAF8F1 /* TopSymbols.swift */,
 				4A1EEB7B2A60026B00B38E6B /* NewsView.swift */,
+				4AA785D42A653E3800F2D6B1 /* ForexView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +113,7 @@
 		4A8C42AC2A52BA9600446330 /* StockApp */ = {
 			isa = PBXGroup;
 			children = (
+				4AA785D82A6540BE00F2D6B1 /* Csv File */,
 				4A412B3B2A56B5EA00A6D08C /* View */,
 				4A412B382A56B03200A6D08C /* Navigation */,
 				4A8C42CD2A530DEB00446330 /* ViewModel */,
@@ -150,6 +162,7 @@
 				4A412B3E2A56B9D100A6D08C /* IntraDay.swift */,
 				4AC545012A5DAA8B0010BE02 /* TopTraded.swift */,
 				4A1EEB7D2A60033A00B38E6B /* NewsSentimentModel.swift */,
+				4AA785DD2A65435D00F2D6B1 /* CurrencyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,8 +190,18 @@
 				4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */,
 				4AC545032A5DAB350010BE02 /* TopSymbolsViewModel.swift */,
 				4A1EEB7F2A6003E500B38E6B /* NewsViewModel.swift */,
+				4AA785D62A653E8E00F2D6B1 /* ForexViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4AA785D82A6540BE00F2D6B1 /* Csv File */ = {
+			isa = PBXGroup;
+			children = (
+				4AA785DB2A6540D900F2D6B1 /* digital_currency_list.csv */,
+				4AA785D92A6540CE00F2D6B1 /* physical_currency_list.csv */,
+			);
+			path = "Csv File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA785DA2A6540CE00F2D6B1 /* physical_currency_list.csv in Resources */,
 				4A8C42B82A52BA9800446330 /* Preview Assets.xcassets in Resources */,
+				4AA785DC2A6540D900F2D6B1 /* digital_currency_list.csv in Resources */,
 				4A8C42B42A52BA9800446330 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,14 +286,17 @@
 				4A8C42C02A52C38800446330 /* Ticker.swift in Sources */,
 				4A412B412A56BA9700A6D08C /* TickerDetailViewModel.swift in Sources */,
 				4A8C42B22A52BA9600446330 /* ContentView.swift in Sources */,
+				4AA785D52A653E3800F2D6B1 /* ForexView.swift in Sources */,
 				4A8C42C62A53098B00446330 /* SearchSym.swift in Sources */,
 				4ACA017A2A5D629800EAF8F1 /* TopSymbols.swift in Sources */,
 				4A8C42C82A530A3A00446330 /* StockService.swift in Sources */,
+				4AA785DE2A65435D00F2D6B1 /* CurrencyModel.swift in Sources */,
 				4A412B3A2A56B04100A6D08C /* AppNavigation.swift in Sources */,
 				4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */,
 				4A412B3D2A56B60800A6D08C /* TickerDetailView.swift in Sources */,
 				4A8C42CF2A530E0B00446330 /* TickerViewModel.swift in Sources */,
 				4A8C42C32A5308E200446330 /* ServiceProtocol.swift in Sources */,
+				4AA785D72A653E8E00F2D6B1 /* ForexViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
