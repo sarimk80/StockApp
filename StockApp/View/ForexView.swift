@@ -9,11 +9,8 @@ import SwiftUI
 
 struct ForexView: View {
     
-    @State private var forexViewModel = ForexViewModel()
-    @State private var firstCurrencyCode = "AED"
-    @State private var SecondCurrencyCode = "USD"
-    @State private var showFirstSheet = false
-    @State private var showSecondSheet = false
+    @State private var forexViewModel = ForexViewModel(stockService: StockService())
+   
     
     var body: some View {
         VStack{
@@ -23,7 +20,7 @@ struct ForexView: View {
                         Image(systemName: "chevron.down")
                             .padding(.trailing,16)
                             .onTapGesture {
-                                self.showFirstSheet.toggle()
+                                forexViewModel.showFirstSheet.toggle()
                             }
                         TextField("Enter amount", text: $forexViewModel.firstCurrency)
                             .frame(maxWidth: UIScreen.main.bounds.size.width * 0.6)
@@ -36,19 +33,30 @@ struct ForexView: View {
                         Image(systemName: "chevron.down")
                             .padding(.trailing,16)
                             .onTapGesture {
-                                self.showSecondSheet.toggle()
+                                forexViewModel.showSecondSheet.toggle()
                             }
                         TextField("Enter amount", text: $forexViewModel.secondCurrency)
                             .frame(maxWidth: UIScreen.main.bounds.size.width * 0.6)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
                     }
+                    
+                    Text("\(forexViewModel.exchangeValue , specifier: "%.2f")")
+                    
+                    if(forexViewModel.isLoading) {
+                        ProgressView()
+                    }
+                    
+                    
                     Spacer()
                 }
-                .sheet(isPresented: $showFirstSheet) {
+                .onChange(of: [forexViewModel.firstCurrency,forexViewModel.secondCurrency], initial: true, {
+                    forexViewModel.calculateCurrencyExchange()
+                })
+                .sheet(isPresented: $forexViewModel.showFirstSheet) {
                     MyPickerView(myCurrencyCode: $forexViewModel.firstCurrencyCode, currencyCode: $forexViewModel.searchCurrencyModel,forexViewModel: $forexViewModel)
                 }
-                .sheet(isPresented: $showSecondSheet) {
+                .sheet(isPresented: $forexViewModel.showSecondSheet) {
                     MyPickerView(myCurrencyCode: $forexViewModel.secondCurrencyCode, currencyCode: $forexViewModel.searchCurrencyModel,forexViewModel: $forexViewModel)
                 }
                 
@@ -58,7 +66,15 @@ struct ForexView: View {
         .navigationTitle("Forex")
         .onAppear {
             forexViewModel.readCsv(inputFile: "physical_currency_list.csv")
+            forexViewModel.dataw()
         }
+        .onChange(of: [forexViewModel.firstCurrencyCode,forexViewModel.secondCurrencyCode], initial: true) {
+            Task{
+                    await forexViewModel.currencyExchangeRate()
+
+            }
+        }
+        
     }
 }
 

@@ -18,15 +18,32 @@ enum ForexViewState {
 @Observable class ForexViewModel {
     
     @ObservationTracked  var forexViewState = ForexViewState.initial
-    @ObservationTracked var firstCurrency = ""
+    @ObservationTracked var firstCurrency = "1"
     @ObservationTracked var secondCurrency = ""
     @ObservationTracked var firstCurrencyCode = "USD"
     @ObservationTracked var secondCurrencyCode = "AED"
     var searchTextField = ""
     var currencyModel:[CurrencyModel] = []
     var searchCurrencyModel:[CurrencyModel] = []
+    var showFirstSheet = false
+    var showSecondSheet = false
+    var isLoading = false
+    var exchangeValue:Double = 0.0
     
+    private let stockService:StockService
     
+    init(stockService: StockService) {
+        self.stockService = stockService
+    }
+    
+    func dataw(){
+        withObservationTracking {
+            print(firstCurrency)
+        } onChange: {
+            print(String(Double(self.secondCurrency) ?? 0.0 * (Double(self.firstCurrency) ?? 0.0) ))
+        }
+
+    }
     
     func readCsv(inputFile:String)  {
         self.forexViewState = ForexViewState.loading
@@ -58,14 +75,41 @@ enum ForexViewState {
         
         if(!searchTextField.isEmpty) {
             searchCurrencyModel = searchCurrencyModel.filter{ $0.currencyName.contains(searchTextField) }
+            if(showFirstSheet){
+                self.firstCurrencyCode = searchCurrencyModel.first?.currencyCode ?? "USD"
+            }
+            if(showSecondSheet){
+                self.secondCurrencyCode = searchCurrencyModel.first?.currencyCode ?? "AED"
+            }
         }else{
             searchCurrencyModel = currencyModel
-
+            
         }
-        
-        
-        //return searchCurrencyModel
     }
+    
+    
+    func currencyExchangeRate() async{
+        
+        do{
+            self.isLoading = true
+            self.firstCurrency = "1"
+            let data = try await self.stockService.forexExchangePoly(fromCurrency: firstCurrencyCode, toCurrency: secondCurrencyCode)
+            self.secondCurrency =  String(format: "%.2f", data.myResults.first?.c ?? 0.0) 
+            self.isLoading = false
+        }catch let error {
+            print(error.localizedDescription)
+            self.isLoading = false
+        }
+    }
+    
+    func calculateCurrencyExchange(){
+        
+        let doubleFirstCurrency = Double(firstCurrency) ?? 0.0
+        let dobuleSecondCurrency = Double(secondCurrency) ?? 0.0
+        
+        exchangeValue = Double(doubleFirstCurrency  * dobuleSecondCurrency)
+    }
+    
 }
     
 

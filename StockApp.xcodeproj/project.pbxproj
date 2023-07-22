@@ -14,6 +14,8 @@
 		4A412B3D2A56B60800A6D08C /* TickerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */; };
 		4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B3E2A56B9D100A6D08C /* IntraDay.swift */; };
 		4A412B412A56BA9700A6D08C /* TickerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */; };
+		4A74CECE2A6945D100ED64BC /* ForexExchangePolyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A74CECD2A6945D100ED64BC /* ForexExchangePolyModel.swift */; };
+		4A8862C32A67ED0700BFDA84 /* ForexExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8862C22A67ED0700BFDA84 /* ForexExchangeModel.swift */; };
 		4A8C42AE2A52BA9600446330 /* StockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42AD2A52BA9600446330 /* StockAppApp.swift */; };
 		4A8C42B22A52BA9600446330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C42B12A52BA9600446330 /* ContentView.swift */; };
 		4A8C42B42A52BA9800446330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C42B32A52BA9800446330 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		4A412B3C2A56B60800A6D08C /* TickerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDetailView.swift; sourceTree = "<group>"; };
 		4A412B3E2A56B9D100A6D08C /* IntraDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntraDay.swift; sourceTree = "<group>"; };
 		4A412B402A56BA9700A6D08C /* TickerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDetailViewModel.swift; sourceTree = "<group>"; };
+		4A74CECD2A6945D100ED64BC /* ForexExchangePolyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexExchangePolyModel.swift; sourceTree = "<group>"; };
+		4A8862C22A67ED0700BFDA84 /* ForexExchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexExchangeModel.swift; sourceTree = "<group>"; };
 		4A8C42AA2A52BA9600446330 /* StockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8C42AD2A52BA9600446330 /* StockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAppApp.swift; sourceTree = "<group>"; };
 		4A8C42B12A52BA9600446330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				4AC545012A5DAA8B0010BE02 /* TopTraded.swift */,
 				4A1EEB7D2A60033A00B38E6B /* NewsSentimentModel.swift */,
 				4AA785DD2A65435D00F2D6B1 /* CurrencyModel.swift */,
+				4A8862C22A67ED0700BFDA84 /* ForexExchangeModel.swift */,
+				4A74CECD2A6945D100ED64BC /* ForexExchangePolyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,10 +295,12 @@
 				4AA785D52A653E3800F2D6B1 /* ForexView.swift in Sources */,
 				4A8C42C62A53098B00446330 /* SearchSym.swift in Sources */,
 				4ACA017A2A5D629800EAF8F1 /* TopSymbols.swift in Sources */,
+				4A74CECE2A6945D100ED64BC /* ForexExchangePolyModel.swift in Sources */,
 				4A8C42C82A530A3A00446330 /* StockService.swift in Sources */,
 				4AA785DE2A65435D00F2D6B1 /* CurrencyModel.swift in Sources */,
 				4A412B3A2A56B04100A6D08C /* AppNavigation.swift in Sources */,
 				4A412B3F2A56B9D100A6D08C /* IntraDay.swift in Sources */,
+				4A8862C32A67ED0700BFDA84 /* ForexExchangeModel.swift in Sources */,
 				4A412B3D2A56B60800A6D08C /* TickerDetailView.swift in Sources */,
 				4A8C42CF2A530E0B00446330 /* TickerViewModel.swift in Sources */,
 				4A8C42C32A5308E200446330 /* ServiceProtocol.swift in Sources */,

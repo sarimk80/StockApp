@@ -14,8 +14,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -122,8 +122,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,8 +138,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,8 +154,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
             <Locations>
@@ -466,8 +466,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -482,8 +482,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "searchTicker(sym:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -498,8 +498,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -576,8 +576,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -624,8 +624,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -672,8 +672,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -720,8 +720,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -768,8 +768,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "tickerDetail(sym:)"
             landmarkType = "7">
             <Locations>
@@ -1020,8 +1020,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "newsSentiment()"
             landmarkType = "7">
             <Locations>
@@ -1083,8 +1083,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "newsSentiment()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1099,8 +1099,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "newsSentiment()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1115,8 +1115,8 @@
             filePath = "StockApp/Services/StockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "newsSentiment()"
             landmarkType = "7">
             <Locations>
@@ -1149,6 +1149,418 @@
                   startingLineNumber = "18"
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6780C935-2605-49DF-9500-A71560639360"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/ForexViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "searchCountry()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6780C935-2605-49DF-9500-A71560639360 - 8e5db3c65e0ccd2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StockApp.ForexViewModel.searchCountry() -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "6780C935-2605-49DF-9500-A71560639360 - 8e5db3c65e0ccd2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StockApp.ForexViewModel.searchCountry() -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92C84DC3-3C51-4C56-AB95-756E2373AD6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/ForexViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "searchCountry()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92C84DC3-3C51-4C56-AB95-756E2373AD6A - 8e5db3c65e0ccc82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StockApp.ForexViewModel.searchCountry() -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "92C84DC3-3C51-4C56-AB95-756E2373AD6A - 8e5db3c65e0ccc82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StockApp.ForexViewModel.searchCountry() -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "901">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1904942-DD3A-4D73-B94E-DA1DB204EC63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/ForexViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "currencyExchangeRate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C5553BF-6C07-4E36-B1FA-87DC5BD8201C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/ForexViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "currencyExchangeRate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C5553BF-6C07-4E36-B1FA-87DC5BD8201C - be5c18d5ee884c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StockApp.ForexViewModel.currencyExchangeRate() async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "177">
+               </Location>
+               <Location
+                  uuid = "2C5553BF-6C07-4E36-B1FA-87DC5BD8201C - 9dd05f4e5a4c6331"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for StockApp.ForexViewModel.currencyExchangeRate() async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2C5553BF-6C07-4E36-B1FA-87DC5BD8201C - e9f10f04ac579852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.ForexViewModel.currencyExchangeRate() async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "2C5553BF-6C07-4E36-B1FA-87DC5BD8201C - 4cb8f5ecc2f6ce59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StockApp.ForexViewModel.currencyExchangeRate() async -&gt; ()"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/ViewModel/ForexViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82205C53-7BDC-4A21-B4E6-23E0B816D049"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/ViewModel/ForexViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "currencyExchangeRate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71B12BD7-8C50-456D-BDB8-C563FC411805"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "forexExchangePoly(fromCurrency:toCurrency:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6685DCEA-DE06-4082-9700-708D7F5FB92A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "forexExchangePoly(fromCurrency:toCurrency:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85440127-4A72-4B55-9C79-3B249D027EDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "forexExchangePoly(fromCurrency:toCurrency:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85440127-4A72-4B55-9C79-3B249D027EDF - c27a109138888892"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "743">
+               </Location>
+               <Location
+                  uuid = "85440127-4A72-4B55-9C79-3B249D027EDF - c27a1091388888b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "2325">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D7A810E-6716-40E6-83EF-C4475C26CDC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "forexExchangePoly(fromCurrency:toCurrency:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D7A810E-6716-40E6-83EF-C4475C26CDC5 - c27a109138888b3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "587">
+               </Location>
+               <Location
+                  uuid = "1D7A810E-6716-40E6-83EF-C4475C26CDC5 - c27a109138888b1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "587">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5B5E73D-2280-4FFB-BCD7-3170DA186BB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StockApp/Services/StockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "forexExchangePoly(fromCurrency:toCurrency:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5B5E73D-2280-4FFB-BCD7-3170DA186BB7 - c27a109138888b7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "319">
+               </Location>
+               <Location
+                  uuid = "F5B5E73D-2280-4FFB-BCD7-3170DA186BB7 - c27a109138888b7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "F5B5E73D-2280-4FFB-BCD7-3170DA186BB7 - c27a109138888b5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "319">
+               </Location>
+               <Location
+                  uuid = "F5B5E73D-2280-4FFB-BCD7-3170DA186BB7 - c27a109138888b5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StockApp.StockService.forexExchangePoly(fromCurrency: Swift.String, toCurrency: Swift.String) async throws -&gt; StockApp.ForexExchangePolyModel"
+                  moduleName = "StockApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarimkhan/Desktop/Home.nosync/StockApp/StockApp/Services/StockService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "564">
                </Location>
             </Locations>
          </BreakpointContent>

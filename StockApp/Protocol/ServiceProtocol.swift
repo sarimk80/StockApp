@@ -17,4 +17,8 @@ protocol ServiceProtocol {
     func topTraded() async throws -> TopTraded
     
     func newsSentiment() async throws -> NewSentimentModel
+    
+    func forexExchange(fromCurrency:String,toCurrency:String) async throws -> ForexExchangeModel
+    
+    func forexExchangePoly(fromCurrency:String,toCurrency:String) async throws -> ForexExchangePolyModel
 }

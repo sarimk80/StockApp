@@ -46,6 +46,11 @@ StockApp Demo
     <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-12 at 13.45.37.png" alt="drawing" width="200"/>
     <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-12 at 13.45.40.png" alt="drawing" width="200"/>
     <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-12 at 13.45.46.png" alt="drawing" width="200"/>
+    <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-22 at 16.48.49.png" alt="drawing" width="200"/>
+    <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-22 at 16.49.02.png" alt="drawing" width="200"/>
+    <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-22 at 16.49.23.png" alt="drawing" width="200"/>
+    <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-22 at 16.49.29.png" alt="drawing" width="200"/>
+    <img src="StockApp/readMeAssets/Simulator Screenshot - iPhone 14 Pro - 2023-07-22 at 16.49.39.png" alt="drawing" width="200"/>
 </div>
 
 ## Contribution

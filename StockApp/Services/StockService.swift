@@ -8,6 +8,54 @@
 import Foundation
 
 class StockService: ServiceProtocol {
+        
+    func forexExchangePoly(fromCurrency: String, toCurrency: String) async throws -> ForexExchangePolyModel {
+        guard let url = URL(string: "https://api.polygon.io/v2/aggs/ticker/C:\(fromCurrency + toCurrency)/prev?adjusted=true&apiKey=\(Helper.POLYGON_API_KEY)")
+        else {  throw URLError(.badURL) }
+        
+        let (data,response) = try await URLSession.shared.data(from: url)
+        
+        
+        guard let response = response as? HTTPURLResponse,
+              
+                response.statusCode == 200
+                
+                
+        else { throw URLError(.badServerResponse) }
+        
+        if let string = String(data: data, encoding: .utf8) {
+                    print(string)
+                }
+        
+        
+        let decodeResponse = try JSONDecoder().decode(ForexExchangePolyModel.self, from: data)
+        
+        return decodeResponse
+    }
+    
+    
+    
+    
+    func forexExchange(fromCurrency:String,toCurrency:String) async throws -> ForexExchangeModel {
+        guard let url = URL(string: "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(fromCurrency)&to_currency=\(toCurrency)&apikey=\(Helper.API_kEY)")
+        else {  throw URLError(.badURL) }
+        
+        let (data,response) = try await URLSession.shared.data(from: url)
+        
+        
+        guard let response = response as? HTTPURLResponse,
+              
+                response.statusCode == 200
+                
+                
+        else { throw URLError(.badServerResponse) }
+        
+        let decodeResponse = try JSONDecoder().decode(ForexExchangeModel.self, from: data)
+        
+        return decodeResponse
+    }
+    
+    
     func newsSentiment() async throws -> NewSentimentModel {
         guard let url = URL(string: "https://www.alphavantage.co/query?function=NEWS_SENTIMENT&apikey=\(Helper.API_kEY)")
         else {  throw URLError(.badURL) }

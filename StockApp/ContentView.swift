@@ -50,24 +50,6 @@ struct ContentView: View {
                 
                     .tabItem { Label("Forex", systemImage: "dollarsign") }
                 
-                NavigationStack{
-                    Text("Commodity")
-                }
-                
-                
-                    .tabItem { Label("Commodity", systemImage: "oilcan") }
-                
-                NavigationStack{
-                    Text("Crypto")
-                }
-                
-               
-                    .tabItem { Label("Crypto", systemImage: "bitcoinsign") }
-                
-                NavigationStack{
-                    Text("Economics")
-                }
-                    .tabItem { Label("Economics", systemImage: "building.columns") }
                 
                
             }
